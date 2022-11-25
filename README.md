@@ -1,24 +1,11 @@
-# README
+# Autentication API
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Esta é uma API criada para prática. Conteúdo visto em tutoriais e desenvolvido unicamente com objetivos de aprendizado.
 
-Things you may want to cover:
+## Instruções
 
-* Ruby version
+Ao clonar/baixar o repositório, execute o comando ``bundle install`` para baixar/configurar as gems necessárias.
 
-* System dependencies
+Em seguida, rode o comando ``rails db:create`` para que seja criado as tabelas em um banco SQLite local.
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Para inicializar o servidor, execute o comando ``rails s`` e acesse pela porta ``http://localhost:3000``
